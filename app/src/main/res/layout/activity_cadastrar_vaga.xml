@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activity.CadastrarVagaActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:paddingBottom="10dp">
+
+        <Spinner
+            android:id="@+id/spinnerEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/spinnerCidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Título"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="#002fa7" />
+
+    <EditText
+        android:id="@+id/editTextEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Evento"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="#002fa7" />
+
+    <EditText
+        android:id="@+id/editTextDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Descriçâo"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="#002fa7" />
+
+    <Button
+        android:id="@+id/buttonCadastrarVaga"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#ff982b"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal|center"
+        android:onClick="validarDadosVaga"
+        android:text="Cadastrar Vaga"
+        android:textColor="#002fa7"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

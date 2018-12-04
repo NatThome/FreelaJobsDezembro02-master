@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "662516077615",
+    "firebase_url": "https://freelajobs-3e0bc.firebaseio.com",
+    "project_id": "freelajobs-3e0bc",
+    "storage_bucket": "freelajobs-3e0bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662516077615:android:d0c9d190e0644760",
+        "android_client_info": {
+          "package_name": "com.nathy.freelajobs.freelajobs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662516077615-as0odp7delu2d815vuh7mapptf7l8lii.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nathy.freelajobs.freelajobs",
+            "certificate_hash": "1aec53c204de23060f1194d86bdd647fa87a7284"
+          }
+        },
+        {
+          "client_id": "662516077615-o5qtjangp14pu4s5nebn2rl91112trfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbwVTwjn0oW5vqupftOSsih5-z7Y499Sw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662516077615-o5qtjangp14pu4s5nebn2rl91112trfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

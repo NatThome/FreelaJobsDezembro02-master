@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cadastro"
+            android:icon="@drawable/ic_cadastro"
+            android:title="Cadastro" />
+        <item
+            android:id="@+id/nav_vaga"
+            android:icon="@drawable/ic_vagas"
+            android:title="Cadastrar Vaga" />
+        <item
+            android:id="@+id/nav_msg"
+            android:icon="@drawable/ic_msg"
+            android:title="Mensagens" />
+    </group>
+
+    <item android:title="Conta">
+        <menu>
+            <item
+                android:id="@+id/nav_excluir"
+                android:icon="@drawable/ic_excluir"
+                android:title="Excluir Conta" />
+            <item
+                android:id="@+id/nav_sair"
+                android:icon="@drawable/ic_sair"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>
